@@ -29,7 +29,6 @@
             </Label.FormattedText>
         </Label>
         <Button Style="{StaticResource styleButtonDemo}" Text="BUTTON EXPLICITO"></Button>
-        <Button Style="{StaticResource styleGlobal}" Text="BUTTON GLOBAL"></Button>
         <Button Text="BUTTON IMPLICITO"></Button>
     </StackLayout>
 </ContentPage>
