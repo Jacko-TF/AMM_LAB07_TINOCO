@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AMM_LAB07_TINOCO.StylesCSSDemo">
+    <ContentPage.Resources>
+        <StyleSheet Source="styles/stylesDemo.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Email"></Label>
+            <Entry Text="Ingrese su email"></Entry>
+            <Label Text="Password"></Label>
+            <Entry Text="Ingrese su contraseña"></Entry>
+            <Button Text="Enviar"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

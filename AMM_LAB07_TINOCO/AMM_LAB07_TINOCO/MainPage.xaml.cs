@@ -48,6 +48,11 @@ namespace AMM_LAB07_TINOCO
             {
                 await Navigation.PushAsync(new DynamicDemo());
             };
+
+            Item8.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new StylesCSSDemo());
+            };
         }
     }
 }
